@@ -149,7 +149,7 @@ public class TOOLS {
 
 	public static void RequestLoadingImagesIntoServer(String maidimgfilenames)
 			throws IOException {
-		String ScriptUrl = "http://sghouse.net/androidphpscripts/uploads/request_loading_maidimages.php";
+		String ScriptUrl = "http:XXXXXXXXXXXXXXXXXXXXXXXXXXXX.php";
 		try {
 			// open a connection to the site
 			URL url = new URL(ScriptUrl);
