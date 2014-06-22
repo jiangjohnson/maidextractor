@@ -28,8 +28,8 @@ import java.util.concurrent.TimeUnit;
 public class main {	
 	public static void main(String[] args) throws IOException, SQLException {
 		int NTHREDS = 10;		
-		int startId = 78000; 
-	    int endId   = 79000; 
+		int startId = 1000; 
+	    int endId   = 100000; 
 	    String urlPrefix = "http://XXXXXXXXXXXXXXXXXXXXXXXXXXXXX";	    
 	    String domain = "http://XXXXXXXXXXXXXXXXXXXXXXXXXXX/";	    	   
 	    TOOLS.ReadMaidProfieRecs();
