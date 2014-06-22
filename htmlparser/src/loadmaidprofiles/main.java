@@ -30,8 +30,8 @@ public class main {
 		int NTHREDS = 10;		
 		int startId = 78000; 
 	    int endId   = 79000; 
-	    String urlPrefix = "http://bestmaid.com.sg/listmaid.asp?id=";	    
-	    String domain = "http://bestmaid.com.sg/";	    	   
+	    String urlPrefix = "http://XXXXXXXXXXXXXXXXXXXXXXXXXXXXX";	    
+	    String domain = "http://XXXXXXXXXXXXXXXXXXXXXXXXXXX/";	    	   
 	    TOOLS.ReadMaidProfieRecs();
 	    TOOLS.ReadUserProfileRecs();
 	    TOOLS.LoadMaidProfileIntoDatabase(urlPrefix,domain,startId,endId);
